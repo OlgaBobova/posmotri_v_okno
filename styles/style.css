@@ -17,7 +17,6 @@ html {
   font-size: 18px;
   background-color: #1b1919;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
 }
@@ -54,10 +53,8 @@ ol {
 .content {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: flex-end;
   flex-wrap: nowrap;
-  padding: 0px 30px;
   gap: 30px;
 }
 
@@ -222,13 +219,8 @@ video {
   height: 298px;
 }
 
-/* все карточки как элемент списка */
 .content__list-item {
   padding-bottom: 34px;
-}
-
-.content__list-item:hover {
-  text-decoration: underline;
 }
 
 .content__list-item:last-child {
@@ -240,11 +232,14 @@ video {
   text-decoration: none;
 }
 
-/* класс для ссылки карточки */
 .content__card-link {
   text-decoration: none;
   color: rgb(255, 255, 255);
   display: block;
+}
+
+.content__card-link:hover {
+  text-decoration: underline;
 }
 
 .content__card-link:active {
@@ -261,14 +256,12 @@ video {
   outline: 1px solid rgb(255, 255, 255);
 }
 
-/* класс актикл */
 .content__video-card {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
 }
 
-/* див с видео */
 .content__video-card-description-container {
   display: flex;
   flex-direction: column;
@@ -277,7 +270,6 @@ video {
   flex-grow: 1;
 }
 
-/* титул карточки */
 .content__video-card-title {
   color: rgb(255, 255, 255);
   font-family: 'Oswald', sans-serif;
@@ -289,7 +281,6 @@ video {
   text-transform: uppercase;
 }
 
-/* р абзац карточки */
 .content__video-card-description {
   color: rgb(255, 255, 255);
   font-family: "Fira Sans Condensed", sans-serif;
@@ -308,7 +299,6 @@ video {
   object-position: center;
 }
 
-/* общие стили кнопок */
 .button {
   display: flex;
   flex-direction: row;
@@ -329,13 +319,11 @@ video {
   text-align: center;
 }
 
-/* кнопка показать еще */
 .more-button {
   width: 399px;
   bottom: 0;
 }
 
-/* кнопка найти */
 .search-form__submit-button {
   width: 194px;
   margin-top: 20px;
