@@ -18,6 +18,7 @@ html {
   background-color: #1b1919;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: nowrap;
 }
 
@@ -56,6 +57,7 @@ ol {
   align-items: flex-end;
   flex-wrap: nowrap;
   gap: 30px;
+  width: 1140px;
 }
 
 .result__video-container {
